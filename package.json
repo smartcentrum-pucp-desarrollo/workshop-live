@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npx --yes @opennextjs/cloudflare build",
+    "build": "next build && npx --yes @opennextjs/cloudflare build --skipBuild",
     "build:next": "next build",
-    "build:cf": "npx --yes @opennextjs/cloudflare build",
+    "build:cf": "next build && npx --yes @opennextjs/cloudflare build --skipBuild",
     "start": "next start",
     "deploy": "npx --yes wrangler deploy"
   },
