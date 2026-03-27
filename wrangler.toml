@@ -8,4 +8,4 @@ directory = ".open-next/assets"
 binding = "ASSETS"
 
 [vars]
-NEXT_PUBLIC_APP_URL = "https://cloudflare-workers-autoconfig-workshop-live.jzegarrag.workers.dev"
+NEXT_PUBLIC_APP_URL = "https://workshop-live.smartcentrum.workers.dev"
